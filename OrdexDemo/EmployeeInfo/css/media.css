@@ -1,0 +1,274 @@
+
+@media (min-width:320px) and (max-width:480px) {
+    .logo img {
+        width: 80%;
+    }
+    .common-form .input_backcolor {
+        width: 95%;
+        /*height: 80px;*/
+		height:auto;
+		margin-bottom:8px;
+    }
+    .common-form .input_backcolor_grey {
+        width: 95%;
+        /*height: 80px;*/
+		height:auto;
+		margin-bottom:8px;
+    }
+    footer p {
+        text-align: center;
+    }
+    .find-content-btn {
+        margin-top: 5px;
+        margin-right: 4px;
+    }
+    .button-content .btn {
+        padding: 0 40px;
+        width: 45%;
+    }
+	.common-form input[type="checkbox"]
+	{
+		margin-left:3px;
+	}
+	.radiobuttonlist_bg
+	{
+		padding-left: 0px;
+		margin-bottom: -25px;
+		margin-top: 15px;
+	}
+	.V_login-form {
+    background: #f0f0f0;
+    padding: 0 35px 25px 35px;
+    margin-top: 20px;
+    border-bottom: 7px solid #c30916;
+    box-shadow: 0px 2px 10px #7f7e7e;
+    box-shadow: 10px 10px 5px grey;
+    background: rgba(240,240,240, 0.7);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+	}
+	.form-control_terms {
+    width: 200px;
+    height: 110px;
+	}
+	.product
+	{
+	width:100%;
+	height: auto;
+	float: left;
+	/*padding: 0px 10px 0px 5px;*/
+	margin-top: -10px;
+	}
+	.product-desc{
+		width:100%;
+	}
+	.table_desc
+	{
+	width:100%;
+	height: auto;
+	float: left;
+	padding: 0px 3px 0px 3px;
+	margin-top: 0px;
+	}
+	.Attach_Data {
+    width: 100%;
+    height: auto;
+    float: left;
+	}
+	#itemdtl
+	{
+		padding-left:5px;
+	}
+	.product-description {
+    margin-top: 40px;
+    margin-left: 0px;
+    width: 100%;
+	}
+	.nav-tabs > li {
+    float: left;
+    width: 100%;
+	}
+	.product-image
+	{
+		display:none;
+	}
+	.common-form .findlabel label
+	{
+		font-size: 15px;
+		float: left;
+		min-width: 50px;
+		padding: 7px 0px;
+	}
+	
+}
+
+@media (max-width:767px) {
+    .login-form {
+        padding: 0 20px 45px;
+    }
+    .find-content-btn {
+        margin-top: 5px;
+        margin-right: 4px;
+    }
+    .login-form .login {
+        padding: 0 70px;
+    }
+    .navbar-nav {
+        float: none;
+    }
+    .navbar-brand img {
+        width: 80%;
+    }
+    .navbar-toggle {
+        margin-top: 30px;
+    }
+    .navbar-nav {
+        padding-top: 10px;
+    }
+    .form-content {
+        padding: 10px;
+    }
+	.button-content .btn
+	{
+		padding: 0 40px;
+		width: 45%;
+	}
+    .common-form .form-control {
+        background: #FFF none repeat scroll 0% 0%;
+        border: medium none;
+        height: 30px;
+        width: 70%;
+        border-radius: 0px;
+        box-shadow: none;
+        font-size: 16px;
+        color: #0E0E0E;
+        border: solid #999999 1px;
+    }
+    .grid {
+        margin-bottom: 40px;
+    }
+    .common-form .input_backcolor {
+        width: 100%;
+        /*height: 80px;*/
+		height:auto;
+    }
+    .common-form .input_backcolor_grey {
+        width: 95%;
+        /*height: 80px;*/
+		height:auto;
+		margin-bottom: 10px;
+    }
+	.radiobuttonlist_bg
+	{
+		padding:10px 0px 10px 0px;
+	}
+	.common-form input[type="checkbox"]
+	{
+		margin-left:3px;
+	}
+	.label_Time {
+		padding: 0px 5px 5px 0px;
+		margin: 0px 0px 0px 5px;
+	}
+	.product-image
+	{
+		display:none;
+	}
+	.product
+	{
+	width:100%;
+	height: auto;
+	float: left;
+	/*padding: 0px 10px 0px 5px;*/
+	margin-top: -10px;
+	}
+	.product-desc{
+		width:100%;
+	}
+	.table_desc
+	{
+	width:100%;
+	height: auto;
+	float: left;
+	padding: 0px 3px 0px 3px;
+	margin-top: 0px;
+	}
+	.Attach_Data {
+    width: 100%;
+    height: auto;
+    float: left;
+	}
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .form-content {
+        padding-top: 1px;
+    }
+	.radiobuttonlist_bg
+	{
+			padding:10px 0px 10px 0px;
+	}
+	.Vbody
+	{
+	margin: 0;
+    padding: 0;
+    background: url(../Image/Vendor_Login_Bg.png) center no-repeat;
+    background-size: cover;
+    height: 1024px;
+    width: 768px;
+	}
+	.V_login-form {
+    background: #f0f0f0;
+    padding: 0 50px 45px 50px;
+    margin-top: 200px;
+    border-bottom: 7px solid #c30916;
+    box-shadow: 0px 2px 10px #7f7e7e;
+    box-shadow: 10px 10px 5px grey;
+    background: rgba(240,240,240, 0.7);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-bottom: 110px;
+	}
+	.product-description {
+		margin-top: 40px;
+		margin-left: 0px;
+		width: 100%;
+	}
+	.table_desc
+	{
+		width:40%;
+		height: auto;
+		float: right;
+		padding: 0px 3px 0px 3px;
+		margin-top: -6px;
+	}
+	.product-desc{
+		width:95%;
+	}
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .form-content {
+        padding-top: 1px;
+    }
+	.radiobuttonlist_bg
+	{
+			padding:10px 0px 10px 0px;
+	}
+	.Vbody
+	{
+	margin: 0;
+    padding: 0;
+    background: url(../Image/Vendor_Login_Bg.png) center no-repeat;
+    background-size: cover;
+    height: 768px;
+	}
+}
+
+@media (min-width:1200px) {
+	
+}

@@ -1,0 +1,6 @@
+E:\MSCIT\OrdexDemo\OrdexDemo\bin\Debug\OrdexDemo.exe.config
+E:\MSCIT\OrdexDemo\OrdexDemo\bin\Debug\OrdexDemo.exe
+E:\MSCIT\OrdexDemo\OrdexDemo\bin\Debug\OrdexDemo.pdb
+E:\MSCIT\OrdexDemo\OrdexDemo\obj\Debug\OrdexDemo.csprojResolveAssemblyReference.cache
+E:\MSCIT\OrdexDemo\OrdexDemo\obj\Debug\OrdexDemo.exe
+E:\MSCIT\OrdexDemo\OrdexDemo\obj\Debug\OrdexDemo.pdb

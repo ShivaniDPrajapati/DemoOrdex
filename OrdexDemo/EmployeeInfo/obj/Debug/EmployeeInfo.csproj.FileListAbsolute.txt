@@ -1,0 +1,9 @@
+E:\MSCIT\OrdexDemo\EmployeeInfo\bin\EmployeeInfo.dll.config
+E:\MSCIT\OrdexDemo\EmployeeInfo\bin\EmployeeInfo.dll
+E:\MSCIT\OrdexDemo\EmployeeInfo\bin\EmployeeInfo.pdb
+E:\MSCIT\OrdexDemo\EmployeeInfo\bin\NetAccessConnection.dll
+E:\MSCIT\OrdexDemo\EmployeeInfo\bin\NetAccessConnection.pdb
+E:\MSCIT\OrdexDemo\EmployeeInfo\bin\NetAccessConnection.xml
+E:\MSCIT\OrdexDemo\EmployeeInfo\obj\Debug\EmployeeInfo.csprojResolveAssemblyReference.cache
+E:\MSCIT\OrdexDemo\EmployeeInfo\obj\Debug\EmployeeInfo.dll
+E:\MSCIT\OrdexDemo\EmployeeInfo\obj\Debug\EmployeeInfo.pdb

@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="EmployeeInfo.Webforms.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <script src="Scripts/jquery.js"></script>
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+  
+    <link href="../css/style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div class="header-one container-fluid" style="background-color: #0094da">
+            <div class="col-md-8" style="text-align: center; padding-top: 5px">
+                <asp:Label ID="lbl_Facility" Style="font-size: 14px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif; color: #FFF;" runat="server" Text=""></asp:Label>
+            </div>
+
+        </div>
+        <div class="doc-section" style="margin-top:38px; margin-bottom:38px">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                    </div>
+
+
+                    <div class="collapse navbar-collapse nav navbar-nav navbar-right testmenu1" id="bs-example-navbar-collapse-1" style="background-color: #0094da">
+                        <asp:Menu ID="Menu" runat="server" Orientation="Horizontal" StaticMenuStyle-CssClass="nav navbar-nav" DynamicMenuStyle-CssClass="dropdown-menu" IncludeStyleBlock="false" RenderingMode="List">
+                            <Items>
+                                <asp:MenuItem Text="Employee" NavigateUrl="~/Webforms/WebMstEmployee.aspx" Value="WebMstEmployee.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="View Employees" NavigateUrl="~/Webforms/WebViewEmployee.aspx" Value="WebViewEmployee.aspx"></asp:MenuItem>
+                            </Items>
+                        </asp:Menu>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <div class="footer" style="background-color: #0094da">
+            <div class="container">
+
+                <p class="cap7">Copyright@2021</p>
+            </div>
+
+        </div>
+
+    </form>
+</body>
+</html>
